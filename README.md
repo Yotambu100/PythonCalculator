@@ -13,7 +13,7 @@ if you press two the progrem will stop.
 
 ## Developer guide:
 
-# important modules and class
+# Important modules and class
 
 	**Controller**
 Class that responsible on navigation between the different scenarios and stages of the solve.the controller does one step at a time (according to the status)
@@ -47,7 +47,7 @@ Class that responsible on solving the equation after convrting it to postfix exp
 Those modules are used to test various class in many different scenarios,the class that are being tested are:StringValidator, StringToListConverter, remove_white_spaces(function), Model, InfixToPostfixConvertor, ConvertListToOrganizedLis
 
 
-# the algoritm
+# The algoritm
 
 after doing all the pre calculation test and passing them successfully the calculator solve the equation by first converting the equation to an OrganizedList and after that converting it to a postfix expression (from infix).
 this way of solving the equation has made it possible to solve all the equation in a **Time complexity of O(n)**
