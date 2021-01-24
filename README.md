@@ -54,7 +54,7 @@ this way of solving the equation has made it possible to solve all the equation 
 
 # Future development
 
-In order to add a new operator to the calculator the develpoper needs to do 2 things.
-first the programmer needs to create a class for that operator that inherit from the OperatorAbstract and then
-initialize its functions and properties 
-secondly add that class to the OPERATORS_DICTIONARY as value and the operator char as the key 
+In order to add a new operator to the calculator the develpoper needs to simply follow those 2 steps.
+1. The programmer needs to create a class for that operator that inherit from the OperatorAbstract and then
+initialize its functions and properties
+2. Add that class to the OPERATORS_DICTIONARY as value and the operator char as the key 
