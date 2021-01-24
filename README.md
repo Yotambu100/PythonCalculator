@@ -50,7 +50,7 @@ Those modules are used to test various class in many different scenarios,the cla
 # the algoritm
 
 after doing all the pre calculation test and passing them successfully the calculator solve the equation by first converting the equation to an OrganizedList and after that converting it to a postfix expression (from infix).
-this way of solving the equation has made it possible to solve all the equation in a **Time complexity of O(n)
+this way of solving the equation has made it possible to solve all the equation in a **Time complexity of O(n)**
 
 # Future development
 
