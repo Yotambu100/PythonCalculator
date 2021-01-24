@@ -23,6 +23,7 @@ class Model:
             calculation_result = CalculationResult()
             calculation_result.result = postfix_list[0]
             return calculation_result
+
         # stack that hold the operands
         operands_stack = []
 
@@ -55,8 +56,8 @@ class Model:
                     operands_stack.append(calculation_result.result)
                 else:
                     return calculation_result
-        return calculation_result
 
+        return calculation_result
 
     def _prepare_list_before_solve(self, metadata):
         """
